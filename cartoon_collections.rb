@@ -18,7 +18,7 @@ def find_the_cheese(ingredients)
     if ingredients.find(cheese)
       return cheese
     else
-      nil
+      return nil
   end
 end
 end
