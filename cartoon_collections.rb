@@ -17,6 +17,7 @@ def find_the_cheese(ingredients)
   cheese_types.each do |cheese|
     if ingredients.find(cheese)
       cheese
+      break
     end
   end
 end
