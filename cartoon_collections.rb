@@ -23,9 +23,9 @@ end
 #   end
 # end
 
-def find_the_cheese(array)
+def find_the_cheese(ingredients)
   cheeses = ["gouda", "cheddar", "camembert"]
-  array.find do |item|
+  ingredients.find do |item|
     cheeses.include?(item)
   end
 end
