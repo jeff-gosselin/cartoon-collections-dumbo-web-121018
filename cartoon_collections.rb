@@ -17,10 +17,8 @@ def find_the_cheese(ingredients)
   cheese_types.each do |cheese|
     if ingredients.find(cheese)
       return cheese
-    end
-    
-    if ingredients.find(!cheese)
-      return nil
+     else
+       return nil
     end
   end
 end
