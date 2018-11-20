@@ -28,8 +28,6 @@ def find_the_cheese(ingredients)
   cheese_types.each do |cheese|
     ingredients.find {|x| x == cheese}
       
-     else
-       return nil
     end
   end
 end
